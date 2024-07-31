@@ -1,5 +1,6 @@
 
 
+
 body {
 text-align: center;
 
@@ -18,24 +19,24 @@ div {
 }
 
 
-button {
+.spielTasten {
  /* Basis-Styling für den krisförmigen Button */
 
-background-color: black; /* Hintergrundfarbe */
-border-color: white;
-border-width: 2px;
-color: white;
-  width: 160px;
-  text-align: center; /* Textzentrierung */
-  display: inline-block; /* Inline-Block-Element */
-  font-size: 30px; 
-  padding: 20px;/* Schriftgröße */
-  line-height: 124px; /* Liniehöhe zum Zentrieren des Textes */
-  cursor: pointer; /* Mauszeiger beim Hover */
-  border-radius: 50%; /* Runde Ecken (Kreis) */
-  transition: background-color 0.3s; /* Übergang für Hintergrundfarbe */
-  position: relative;
-
+ background-color: black; /* Hintergrundfarbe */
+ border-color: white;
+ border-width: 2px;
+ color: white;
+ width: 160px;
+   text-align: center; /* Textzentrierung */
+   display: inline-block; /* Inline-Block-Element */
+   font-size: 30px; 
+   padding: 20px;/* Schriftgröße */
+   line-height: 124px; /* Liniehöhe zum Zentrieren des Textes */
+   cursor: pointer; /* Mauszeiger beim Hover */
+   border-radius: 50%; /* Runde Ecken (Kreis) */
+   transition: background-color 0.3s; /* Übergang für Hintergrundfarbe */
+   position: relative;
+ 
 }
 
 /* Hover-Effekt */
@@ -75,7 +76,7 @@ img {
 }
 
 
-button {
+.spielTasten {
 
   margin-top: 130px;
   text-shadow: 
@@ -105,18 +106,22 @@ button {
 }
 
 #resetButton {
-  background-color: rgb(19, 1, 19);
-  color: white;
+  background-color: black;
+  color: darkred;
+
+  font-size: 25px;
+ font-weight: 555;
+  margin-top: 80px;
   border-radius: 5px;
- font-size: 20px;
- block-size: auto;
-  font-size: 20px;
-padding: 0px;
-  text-align: center;
-  line-height: center;
- margin-top: 80px;
+ border-width: auto;
+ width: fit-content;
+ height: fit-content;
+ border-width: 10px;
+ border-color: #6b1e6b;
+
+  
 }
+
 #resetButton:hover {
   filter: drop-shadow(0 0 40px red);
 }
-
