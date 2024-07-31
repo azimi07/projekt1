@@ -134,4 +134,11 @@ img {
       margin-top: 20px;
       
      }
+       #titel {
+      margin-top: 80px;
+     }
+
+     body {
+      background-position-y: -150px;
+     }
 };
