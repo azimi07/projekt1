@@ -1,6 +1,4 @@
 
-
-
 body {
 text-align: center;
 
@@ -11,7 +9,12 @@ text-align: center;
  background-position-y: -100px;
  background-position-x: center;
 
-}
+} 
+div {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+ justify-content: center
+ }
 
 .spielTasten {
  /* Basis-Styling für den krisförmigen Button */
@@ -34,7 +37,7 @@ text-align: center;
 }
 
 /* Hover-Effekt */
-button:hover  {
+.spielTasten:hover  {
  width: 170px;
  height: 180px;
  filter: drop-shadow(0 0 10px white);
@@ -102,7 +105,6 @@ img {
 #resetButton {
   background-color: black;
   color: darkred;
-
   font-size: 25px;
  font-weight: 555;
   margin-top: 80px;
@@ -117,14 +119,16 @@ img {
 }
 
 #resetButton:hover {
+
   filter: drop-shadow(0 0 40px red);
 }
-@media screen and (min-width: 800px) and (max-width: 1200px) {
+
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
      
      .spielTasten {
       width: 160px;
         text-align: center; 
-        display: inline-block; 
         font-size: 30px; 
         padding: 20px;
         line-height: 124px; 
@@ -132,13 +136,19 @@ img {
         border-radius: 50%; 
         transition: background-color 0.3s; 
       margin-top: 20px;
-      
      }
-       #titel {
-      margin-top: 60px;
+
+     #titel {
+      margin-top: 80px;
      }
 
      body {
-      background-position-y: -170px;
+      background-position-y: -150px;
+     }
+
+     div {
+      display: grid;
+      grid-template-columns: repeat(3, 200px);
+     justify-content: center
      }
 };
