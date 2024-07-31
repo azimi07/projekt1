@@ -1,4 +1,5 @@
 
+
 body {
 text-align: center;
 
@@ -6,7 +7,7 @@ text-align: center;
   background-image: url(hintergrund.webp);
   background-size: 1800px;
   background-repeat: no-repeat;
- background-position-y: -100px;
+ background-position-y: -260px;
  background-position-x: center;
 
 } 
@@ -33,6 +34,7 @@ div {
    border-radius: 50%; /* Runde Ecken (Kreis) */
    transition: background-color 0.3s; /* Übergang für Hintergrundfarbe */
    position: relative;
+   margin-top: 90px;
  
 }
 
@@ -57,7 +59,7 @@ img {
 #titel {
   margin-top: 120px;
   font-size: 100px;
-
+  margin-top: 0px;
   font-style:oblique;
 
   color: #fff;
@@ -75,7 +77,7 @@ img {
 
 .spielTasten {
 
-  margin-top: 130px;
+
   text-shadow: 
   0 0 10px #fff,
   0 0 15px #fff,
@@ -126,12 +128,13 @@ img {
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
      
+ 
 
   div {
-    padding: 10px 20px; 
-        display: flex;
-    gap: 20px; 
-     
+    padding: 10px 20px; /* Optional: Größe der Buttons */
+
+    display: flex;
+    gap: 20px; /* Abstand zwischen den Buttons */
   }
      .spielTasten {
       width: 160px;
@@ -146,11 +149,11 @@ img {
      }
 
      #titel {
-      margin-top: 80px;
+      margin-top: 0px;
      }
 
      body {
-      background-position-y: -150px;
+      background-position-y: -260px;
      }
 
 };
