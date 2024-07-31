@@ -13,12 +13,6 @@ text-align: center;
 
 }
 
-div {
-
- font-size: 200px;
-}
-
-
 .spielTasten {
  /* Basis-Styling für den krisförmigen Button */
 
@@ -125,3 +119,19 @@ img {
 #resetButton:hover {
   filter: drop-shadow(0 0 40px red);
 }
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+     
+     .spielTasten {
+      width: 160px;
+        text-align: center; 
+        display: inline-block; 
+        font-size: 30px; 
+        padding: 20px;
+        line-height: 124px; 
+        cursor: pointer; 
+        border-radius: 50%; 
+        transition: background-color 0.3s; 
+      margin-top: 20px;
+      
+     }
+};
